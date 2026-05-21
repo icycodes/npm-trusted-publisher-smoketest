@@ -1,6 +1,6 @@
 {
   "name": "@icycodes/npm-trusted-publisher-smoketest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minimal smoke test for npm Trusted Publishing with GitHub Actions",
   "type": "module",
   "bin": {
