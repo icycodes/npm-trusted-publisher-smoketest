@@ -1,0 +1,25 @@
+{
+  "name": "@icycodes/npm-trusted-publisher-smoketest",
+  "version": "0.0.1",
+  "description": "Minimal smoke test for npm Trusted Publishing with GitHub Actions",
+  "type": "module",
+  "bin": {
+    "tp-smoketest": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bun build src/cli.ts --target node --outfile dist/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icycodes/npm-trusted-publisher-smoketest.git"
+  },
+  "license": "MIT",
+  "packageManager": "bun@1.2.15"
+}
